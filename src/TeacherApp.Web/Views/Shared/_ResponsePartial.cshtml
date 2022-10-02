@@ -1,0 +1,11 @@
+﻿@using TeacherApp.Web.Utilities;
+@{
+    @if (TempData.Peek<ResponseModel>("Message") != null)
+    {
+        var response = TempData.Get<ResponseModel>("Message");
+        <div class="alert alert-@(response.ResponseType.ToString().ToLower())" role="alert">
+            @response.ResponseMessage
+        </div>
+    }
+}
+

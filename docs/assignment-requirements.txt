@@ -1,0 +1,26 @@
+Task: Create a simple web application using any familiar language (.NET/C#/ASP.NET/MVC/Javascript/MS SQL SERVER/Entity Framework)
+with covering below points]
+
+1) Create a Teacher table in MS SQL.
+
+ 
+TeacherId - INT
+
+Name  - NVARCHAR(150)
+
+Address - NVARCHAR(150)
+
+Tel - NVARCHAR(25)
+
+ 
+
+2) Create a web application to perform INSERT, UPDATE and VIEW operations.
+
+
+INSERT - User interface to enter Teacher Details and Save in the database.
+ 
+
+UPDATE - Update the existing data
+ 
+VIEW - List all the Teacher details which are saved in the database.
+
